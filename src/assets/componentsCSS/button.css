@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply py-1 px-4  rounded-[14px];
+}
+
+.btn-blue {
+    @apply bg-mid-light-blue text-white;
+}
+
+.btn-white {
+    @apply bg-white text-mid-light-blue ;
+}
+
+.btn-gray-hover{
+    @apply hover:bg-gray-200 border hover:border-none border-slate-50;
+}
+.btn-login{
+    @apply btn-md rounded-[5px] font-light py-1 md:col-span-2 normal-case hover:bg-mid-light-blue hover:text-white;
+}

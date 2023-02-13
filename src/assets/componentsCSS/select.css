@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ /* 
+ Se debe importar el componente a utilzar, en este caso: 
+    import '../../assets/componentsCSS/select.css';
+
+ */
+.selectS {
+    @apply form-multiselect block py-2 px-4 text-gray-700 bg-fill-light rounded;
+}
